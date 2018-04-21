@@ -20,6 +20,12 @@ class CreateProcessTable extends Migration
             $table->date('date_ending');
             $table->unsignedInteger('document_id');
             $table->foreign('document_id')->references('id')->on('documents');
+            $table->unsignedInteger('proceeding_id');
+            $table->foreign('proceeding_id')->references('id')->on('proceeding');
+            $table->unsignedInteger('observation_id');
+            $table->foreign('observation_id')->references('id')->on('observation');
+            $table->unsignedInteger('attached_id');
+            $table->foreign('attached_id')->references('id')->on('attached');
         });
     }
 
