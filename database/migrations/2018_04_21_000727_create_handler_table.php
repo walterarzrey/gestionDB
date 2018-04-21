@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateObservationTable extends Migration
+class CreateHandlerTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,9 +13,9 @@ class CreateObservationTable extends Migration
      */
     public function up()
     {
-        Schema::create('observation', function (Blueprint $table) {
+        Schema::create('handler', function (Blueprint $table) {
             $table->increments('id');
-            $table->string('observations', 40);
+            $table->string('name', 80);
         });
     }
 
@@ -26,6 +26,6 @@ class CreateObservationTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('observation');
+        Schema::dropIfExists('handler');
     }
 }
