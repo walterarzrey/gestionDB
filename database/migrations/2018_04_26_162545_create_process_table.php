@@ -34,10 +34,10 @@ class CreateProcessTable extends Migration
             ->references('id')
             ->on('adjunct');
 
-            $table->unsignedInteger('precess_id');
-            $table->foreign('precess_id')
+            $table->unsignedInteger('process_id');
+            $table->foreign('process_id')
             ->references('id')
-            ->on('precess');
+            ->on('process');
         });
     }
 

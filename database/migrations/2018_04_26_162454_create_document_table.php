@@ -13,7 +13,7 @@ class CreateDocumentTable extends Migration
      */
     public function up()
     {
-        Schema::create('document', function (Blueprint $table) {
+        Schema::create('documents', function (Blueprint $table) {
             $table->increments('id');
             $table->string('interested',60);
             $table->string('code',6)->nullable();
@@ -21,7 +21,7 @@ class CreateDocumentTable extends Migration
             $table->unsignedInteger('document_type_id');
             $table->foreign('document_type_id')
             ->references('id')
-            ->on('documents_types');
+            ->on('document_types');
         });
     }
 
@@ -32,6 +32,6 @@ class CreateDocumentTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('document');
+        Schema::dropIfExists('documents');
     }
 }
