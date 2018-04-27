@@ -16,6 +16,8 @@ class CreateAttachedTable extends Migration
         Schema::create('attached', function (Blueprint $table) {
             $table->increments('id');
             $table->string('name',50);
+            $table->unsignedInteger('process_id');
+            $table->foreign('process_id')->references('id')->on('process');
         });
     }
 

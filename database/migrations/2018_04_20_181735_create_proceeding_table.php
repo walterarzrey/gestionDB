@@ -16,6 +16,8 @@ class CreateProceedingTable extends Migration
         Schema::create('transaction', function (Blueprint $table) {
             $table->increments('id');
             $table->string('name',80);
+            $table->unsignedInteger('process_id');
+            $table->foreign('process_id')->references('id')->on('process');
         });
     }
 
