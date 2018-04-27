@@ -19,7 +19,6 @@ class CreateMaterialsTable extends Migration
             $table->unsignedInteger('language_id');
             $table->unsignedInteger('edition');
             $table->unsignedInteger('year');
-            $table->unsignedInteger('edition');
             $table->unsignedInteger('material_type_id');
             $table->string('file',300);
             $table->text('abstract');
