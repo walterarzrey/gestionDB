@@ -15,7 +15,7 @@ class CreateAdjunctTable extends Migration
     {
         Schema::create('adjunct', function (Blueprint $table) {
             $table->increments('id');
-            $table->timestamps();
+            $table->string('name',80);
         });
     }
 
