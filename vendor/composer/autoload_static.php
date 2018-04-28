@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit65aa4cb11823b39bc0695e469d537c70
+class ComposerStaticInit4dd14794522519deee6d861544f0a813
 {
     public static $files = array (
         '0e6d7bf4a5811bfa5cf40c5ccd6fae6a' => __DIR__ . '/..' . '/symfony/polyfill-mbstring/bootstrap.php',
@@ -2866,6 +2866,7 @@ class ComposerStaticInit65aa4cb11823b39bc0695e469d537c70
         'Ramsey\\Uuid\\UuidFactory' => __DIR__ . '/..' . '/ramsey/uuid/src/UuidFactory.php',
         'Ramsey\\Uuid\\UuidFactoryInterface' => __DIR__ . '/..' . '/ramsey/uuid/src/UuidFactoryInterface.php',
         'Ramsey\\Uuid\\UuidInterface' => __DIR__ . '/..' . '/ramsey/uuid/src/UuidInterface.php',
+        'RolesTableSeeder' => __DIR__ . '/../..' . '/database/seeds/RolesTableSeeder.php',
         'SebastianBergmann\\CodeCoverage\\CodeCoverage' => __DIR__ . '/..' . '/phpunit/php-code-coverage/src/CodeCoverage.php',
         'SebastianBergmann\\CodeCoverage\\CoveredCodeNotExecutedException' => __DIR__ . '/..' . '/phpunit/php-code-coverage/src/Exception/CoveredCodeNotExecutedException.php',
         'SebastianBergmann\\CodeCoverage\\Driver\\Driver' => __DIR__ . '/..' . '/phpunit/php-code-coverage/src/Driver/Driver.php',
@@ -3524,6 +3525,8 @@ class ComposerStaticInit65aa4cb11823b39bc0695e469d537c70
         'TijsVerkoyen\\CssToInlineStyles\\Css\\Property\\Property' => __DIR__ . '/..' . '/tijsverkoyen/css-to-inline-styles/src/Css/Property/Property.php',
         'TijsVerkoyen\\CssToInlineStyles\\Css\\Rule\\Processor' => __DIR__ . '/..' . '/tijsverkoyen/css-to-inline-styles/src/Css/Rule/Processor.php',
         'TijsVerkoyen\\CssToInlineStyles\\Css\\Rule\\Rule' => __DIR__ . '/..' . '/tijsverkoyen/css-to-inline-styles/src/Css/Rule/Rule.php',
+        'UserRolesTableSeeder' => __DIR__ . '/../..' . '/database/seeds/UserRolesTableSeeder.php',
+        'UsersTableSeeder' => __DIR__ . '/../..' . '/database/seeds/UsersTableSeeder.php',
         'Webmozart\\Assert\\Assert' => __DIR__ . '/..' . '/webmozart/assert/src/Assert.php',
         'Whoops\\Exception\\ErrorException' => __DIR__ . '/..' . '/filp/whoops/src/Whoops/Exception/ErrorException.php',
         'Whoops\\Exception\\Formatter' => __DIR__ . '/..' . '/filp/whoops/src/Whoops/Exception/Formatter.php',
@@ -3617,10 +3620,10 @@ class ComposerStaticInit65aa4cb11823b39bc0695e469d537c70
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInit65aa4cb11823b39bc0695e469d537c70::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInit65aa4cb11823b39bc0695e469d537c70::$prefixDirsPsr4;
-            $loader->prefixesPsr0 = ComposerStaticInit65aa4cb11823b39bc0695e469d537c70::$prefixesPsr0;
-            $loader->classMap = ComposerStaticInit65aa4cb11823b39bc0695e469d537c70::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInit4dd14794522519deee6d861544f0a813::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit4dd14794522519deee6d861544f0a813::$prefixDirsPsr4;
+            $loader->prefixesPsr0 = ComposerStaticInit4dd14794522519deee6d861544f0a813::$prefixesPsr0;
+            $loader->classMap = ComposerStaticInit4dd14794522519deee6d861544f0a813::$classMap;
 
         }, null, ClassLoader::class);
     }
