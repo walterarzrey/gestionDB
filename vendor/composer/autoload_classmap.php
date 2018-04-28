@@ -25,10 +25,13 @@ return array(
     'App\\Providers\\EventServiceProvider' => $baseDir . '/app/Providers/EventServiceProvider.php',
     'App\\Providers\\RouteServiceProvider' => $baseDir . '/app/Providers/RouteServiceProvider.php',
     'App\\User' => $baseDir . '/app/User.php',
+<<<<<<< HEAD
     'AreasTableSeeder' => $baseDir . '/database/seeds/AreasTableSeeder.php',
     'AuthorsTableSeeder' => $baseDir . '/database/seeds/AuthorsTableSeeder.php',
     'BookcaseMaterialsTableSeeder' => $baseDir . '/database/seeds/BookcaseMaterialsTableSeeder.php',
     'BookcasesTableSeeder' => $baseDir . '/database/seeds/BookcasesTableSeeder.php',
+=======
+>>>>>>> origin/dev
     'Carbon\\Carbon' => $vendorDir . '/nesbot/carbon/src/Carbon/Carbon.php',
     'Carbon\\CarbonInterval' => $vendorDir . '/nesbot/carbon/src/Carbon/CarbonInterval.php',
     'Carbon\\Exceptions\\InvalidDateException' => $vendorDir . '/nesbot/carbon/src/Carbon/Exceptions/InvalidDateException.php',
@@ -1487,9 +1490,12 @@ return array(
     'League\\Flysystem\\Util\\ContentListingFormatter' => $vendorDir . '/league/flysystem/src/Util/ContentListingFormatter.php',
     'League\\Flysystem\\Util\\MimeType' => $vendorDir . '/league/flysystem/src/Util/MimeType.php',
     'League\\Flysystem\\Util\\StreamHasher' => $vendorDir . '/league/flysystem/src/Util/StreamHasher.php',
+<<<<<<< HEAD
     'MaterialAreasTableSeeder' => $baseDir . '/database/seeds/MaterialAreasTableSeeder.php',
     'MaterialAuthorsTableSeeder' => $baseDir . '/database/seeds/MaterialAuthorsTableSeeder.php',
     'MaterialsTableSeeder' => $baseDir . '/database/seeds/MaterialsTableSeeder.php',
+=======
+>>>>>>> origin/dev
     'Mockery' => $vendorDir . '/mockery/mockery/library/Mockery.php',
     'Mockery\\Adapter\\Phpunit\\MockeryPHPUnitIntegration' => $vendorDir . '/mockery/mockery/library/Mockery/Adapter/Phpunit/MockeryPHPUnitIntegration.php',
     'Mockery\\Adapter\\Phpunit\\MockeryTestCase' => $vendorDir . '/mockery/mockery/library/Mockery/Adapter/Phpunit/MockeryTestCase.php',
@@ -3225,7 +3231,10 @@ return array(
     'TijsVerkoyen\\CssToInlineStyles\\Css\\Rule\\Processor' => $vendorDir . '/tijsverkoyen/css-to-inline-styles/src/Css/Rule/Processor.php',
     'TijsVerkoyen\\CssToInlineStyles\\Css\\Rule\\Rule' => $vendorDir . '/tijsverkoyen/css-to-inline-styles/src/Css/Rule/Rule.php',
     'UserRolesTableSeeder' => $baseDir . '/database/seeds/UserRolesTableSeeder.php',
+<<<<<<< HEAD
     'UserViewMaterialsTableSeeder' => $baseDir . '/database/seeds/UserViewMaterialsTableSeeder.php',
+=======
+>>>>>>> origin/dev
     'UsersTableSeeder' => $baseDir . '/database/seeds/UsersTableSeeder.php',
     'Webmozart\\Assert\\Assert' => $vendorDir . '/webmozart/assert/src/Assert.php',
     'Whoops\\Exception\\ErrorException' => $vendorDir . '/filp/whoops/src/Whoops/Exception/ErrorException.php',
