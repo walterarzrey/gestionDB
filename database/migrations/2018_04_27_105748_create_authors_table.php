@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateObservationsTable extends Migration
+class CreateAuthorsTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,9 +13,9 @@ class CreateObservationsTable extends Migration
      */
     public function up()
     {
-        Schema::create('observations', function (Blueprint $table) {
+        Schema::create('authors', function (Blueprint $table) {
             $table->increments('id');
-            $table->string('observation',60);
+            $table->string('author',130);
         });
     }
 
@@ -26,6 +26,6 @@ class CreateObservationsTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('observations');
+        Schema::dropIfExists('authors');
     }
 }
