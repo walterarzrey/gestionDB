@@ -14,6 +14,7 @@ class AuthorsTableSeeder extends Seeder
         for($i=1;$i<20;$i++) {
             DB::table('authors')->insert([
                 'author' => "Autor nro".$i,
+                'author' => "Auto nro".$i,
                 //'author' => rand(1, 4),
                 'user_id' => $i
             ]);
