@@ -13,7 +13,7 @@ return [
     |
     */
 
-    'default' => env('DB_CONNECTION', 'mysql'),
+    'default' => env('DB_CONNECTION', 'pgsql'),
 
     /*
     |--------------------------------------------------------------------------
@@ -58,7 +58,11 @@ return [
             'driver' => 'pgsql',
             'host' => env('DB_HOST', '127.0.0.1'),
             'port' => env('DB_PORT', '5432'),
+<<<<<<< HEAD
             'database' => env('DB_DATABASE', 'library'),
+=======
+            'database' => env('DB_DATABASE', 'tramites'),
+>>>>>>> ac3b0171d714b816c6873fd0d8fafcb3a60aa58c
             'username' => env('DB_USERNAME', 'postgres'),
             'password' => env('DB_PASSWORD', 'lavidaesasi'),
             'charset' => 'utf8',
