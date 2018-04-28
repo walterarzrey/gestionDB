@@ -26,6 +26,5 @@ class AutorsTableSeeder extends Seeder
             DB::table('authors')->insert([
                 'author' => $autores[rand(0,8)],
                 ]);
-        }
-    }
+    }}
 }

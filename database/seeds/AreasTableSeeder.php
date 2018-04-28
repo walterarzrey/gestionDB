@@ -25,6 +25,5 @@ class AreasTableSeeder extends Seeder
             DB::table('areas')->insert([
                 'area' => $areas[rand(0,7)],
                 ]);
-        }
     }
-}
+}}

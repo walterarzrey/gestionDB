@@ -17,4 +17,5 @@ class MatAutorTableSeeder extends Seeder
                 'author_id' => '00'.$i
             ]);
     }
-}}
+    }
+}

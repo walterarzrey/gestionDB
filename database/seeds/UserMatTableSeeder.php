@@ -17,4 +17,5 @@ class UserMatTableSeeder extends Seeder
                 'material_id'   =>  $i
             ]);
     }
-}}
+    }
+}

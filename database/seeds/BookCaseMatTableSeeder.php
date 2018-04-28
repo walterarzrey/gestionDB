@@ -11,11 +11,11 @@ class BookCaseMatTableSeeder extends Seeder
      */
     public function run()
     {
-        
         for($i=1;$i<20;$i++){
             DB::table('bookcase_materials')->insert([
                 'bookcase_id' => $i,
                 'material_id' => $i
                 ]);
-    }}
+    }
+    }
 }

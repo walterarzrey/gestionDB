@@ -16,5 +16,6 @@ class MATareaableSeeder extends Seeder
                 'area_id' => '00'.$i,
                 'material_id' => '00'.$i,
             ]);
-    }}
+    }
+    }
 }

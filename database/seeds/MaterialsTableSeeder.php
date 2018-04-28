@@ -37,4 +37,5 @@ class MaterialsTableSeeder extends Seeder
 
                 ]);
     }
-}}
+    }
+}

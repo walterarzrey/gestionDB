@@ -23,7 +23,7 @@ class CreateMaterialsTable extends Migration
             $table->string('file',300);
             $table->text('abstract');
             $table->string('isbn',20);
-            $table->string('is_digital');
+            $table->boolean('is_digital')->default(false);
             $table->unsignedBigInteger('user_id');
             $table->foreign('language_id')
 				  ->references('id')
