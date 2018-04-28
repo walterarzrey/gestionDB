@@ -11,15 +11,6 @@ class UserRolesTableSeeder extends Seeder
      */
     public function run()
     {
-<<<<<<< HEAD
         //
-=======
-        for($i=1;$i<20;$i++){
-            DB::table('user_roles')->insert([
-                'role_id'   =>  rand(1,4),
-                'user_id'   =>  $i
-            ]);
-        }
->>>>>>> origin/dev
     }
 }

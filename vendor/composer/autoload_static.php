@@ -4,11 +4,7 @@
 
 namespace Composer\Autoload;
 
-<<<<<<< HEAD
 class ComposerStaticInit65aa4cb11823b39bc0695e469d537c70
-=======
-class ComposerStaticInit4dd14794522519deee6d861544f0a813
->>>>>>> origin/dev
 {
     public static $files = array (
         '0e6d7bf4a5811bfa5cf40c5ccd6fae6a' => __DIR__ . '/..' . '/symfony/polyfill-mbstring/bootstrap.php',
@@ -337,13 +333,10 @@ class ComposerStaticInit4dd14794522519deee6d861544f0a813
         'App\\Providers\\EventServiceProvider' => __DIR__ . '/../..' . '/app/Providers/EventServiceProvider.php',
         'App\\Providers\\RouteServiceProvider' => __DIR__ . '/../..' . '/app/Providers/RouteServiceProvider.php',
         'App\\User' => __DIR__ . '/../..' . '/app/User.php',
-<<<<<<< HEAD
         'AreasTableSeeder' => __DIR__ . '/../..' . '/database/seeds/AreasTableSeeder.php',
         'AuthorsTableSeeder' => __DIR__ . '/../..' . '/database/seeds/AuthorsTableSeeder.php',
         'BookcaseMaterialsTableSeeder' => __DIR__ . '/../..' . '/database/seeds/BookcaseMaterialsTableSeeder.php',
         'BookcasesTableSeeder' => __DIR__ . '/../..' . '/database/seeds/BookcasesTableSeeder.php',
-=======
->>>>>>> origin/dev
         'Carbon\\Carbon' => __DIR__ . '/..' . '/nesbot/carbon/src/Carbon/Carbon.php',
         'Carbon\\CarbonInterval' => __DIR__ . '/..' . '/nesbot/carbon/src/Carbon/CarbonInterval.php',
         'Carbon\\Exceptions\\InvalidDateException' => __DIR__ . '/..' . '/nesbot/carbon/src/Carbon/Exceptions/InvalidDateException.php',
@@ -1752,6 +1745,7 @@ class ComposerStaticInit4dd14794522519deee6d861544f0a813
         'JakubOnderka\\PhpConsoleColor\\ConsoleColor' => __DIR__ . '/..' . '/jakub-onderka/php-console-color/src/JakubOnderka/PhpConsoleColor/ConsoleColor.php',
         'JakubOnderka\\PhpConsoleColor\\InvalidStyleException' => __DIR__ . '/..' . '/jakub-onderka/php-console-color/src/JakubOnderka/PhpConsoleColor/InvalidStyleException.php',
         'JakubOnderka\\PhpConsoleHighlighter\\Highlighter' => __DIR__ . '/..' . '/jakub-onderka/php-console-highlighter/src/JakubOnderka/PhpConsoleHighlighter/Highlighter.php',
+        'LanguajeTableSeed' => __DIR__ . '/../..' . '/database/seeds/LanguajeTableSeed.php',
         'Laravel\\Tinker\\ClassAliasAutoloader' => __DIR__ . '/..' . '/laravel/tinker/src/ClassAliasAutoloader.php',
         'Laravel\\Tinker\\Console\\TinkerCommand' => __DIR__ . '/..' . '/laravel/tinker/src/Console/TinkerCommand.php',
         'Laravel\\Tinker\\TinkerCaster' => __DIR__ . '/..' . '/laravel/tinker/src/TinkerCaster.php',
@@ -1802,12 +1796,11 @@ class ComposerStaticInit4dd14794522519deee6d861544f0a813
         'League\\Flysystem\\Util\\ContentListingFormatter' => __DIR__ . '/..' . '/league/flysystem/src/Util/ContentListingFormatter.php',
         'League\\Flysystem\\Util\\MimeType' => __DIR__ . '/..' . '/league/flysystem/src/Util/MimeType.php',
         'League\\Flysystem\\Util\\StreamHasher' => __DIR__ . '/..' . '/league/flysystem/src/Util/StreamHasher.php',
-<<<<<<< HEAD
         'MaterialAreasTableSeeder' => __DIR__ . '/../..' . '/database/seeds/MaterialAreasTableSeeder.php',
         'MaterialAuthorsTableSeeder' => __DIR__ . '/../..' . '/database/seeds/MaterialAuthorsTableSeeder.php',
+        'MaterialTypesTableSeed' => __DIR__ . '/../..' . '/database/seeds/MaterialTypesTableSeed.php',
+        'MaterialTypesTableSeeder' => __DIR__ . '/../..' . '/database/seeds/MaterialTypesTableSeeder.php',
         'MaterialsTableSeeder' => __DIR__ . '/../..' . '/database/seeds/MaterialsTableSeeder.php',
-=======
->>>>>>> origin/dev
         'Mockery' => __DIR__ . '/..' . '/mockery/mockery/library/Mockery.php',
         'Mockery\\Adapter\\Phpunit\\MockeryPHPUnitIntegration' => __DIR__ . '/..' . '/mockery/mockery/library/Mockery/Adapter/Phpunit/MockeryPHPUnitIntegration.php',
         'Mockery\\Adapter\\Phpunit\\MockeryTestCase' => __DIR__ . '/..' . '/mockery/mockery/library/Mockery/Adapter/Phpunit/MockeryTestCase.php',
@@ -3543,10 +3536,7 @@ class ComposerStaticInit4dd14794522519deee6d861544f0a813
         'TijsVerkoyen\\CssToInlineStyles\\Css\\Rule\\Processor' => __DIR__ . '/..' . '/tijsverkoyen/css-to-inline-styles/src/Css/Rule/Processor.php',
         'TijsVerkoyen\\CssToInlineStyles\\Css\\Rule\\Rule' => __DIR__ . '/..' . '/tijsverkoyen/css-to-inline-styles/src/Css/Rule/Rule.php',
         'UserRolesTableSeeder' => __DIR__ . '/../..' . '/database/seeds/UserRolesTableSeeder.php',
-<<<<<<< HEAD
         'UserViewMaterialsTableSeeder' => __DIR__ . '/../..' . '/database/seeds/UserViewMaterialsTableSeeder.php',
-=======
->>>>>>> origin/dev
         'UsersTableSeeder' => __DIR__ . '/../..' . '/database/seeds/UsersTableSeeder.php',
         'Webmozart\\Assert\\Assert' => __DIR__ . '/..' . '/webmozart/assert/src/Assert.php',
         'Whoops\\Exception\\ErrorException' => __DIR__ . '/..' . '/filp/whoops/src/Whoops/Exception/ErrorException.php',
@@ -3641,17 +3631,10 @@ class ComposerStaticInit4dd14794522519deee6d861544f0a813
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-<<<<<<< HEAD
             $loader->prefixLengthsPsr4 = ComposerStaticInit65aa4cb11823b39bc0695e469d537c70::$prefixLengthsPsr4;
             $loader->prefixDirsPsr4 = ComposerStaticInit65aa4cb11823b39bc0695e469d537c70::$prefixDirsPsr4;
             $loader->prefixesPsr0 = ComposerStaticInit65aa4cb11823b39bc0695e469d537c70::$prefixesPsr0;
             $loader->classMap = ComposerStaticInit65aa4cb11823b39bc0695e469d537c70::$classMap;
-=======
-            $loader->prefixLengthsPsr4 = ComposerStaticInit4dd14794522519deee6d861544f0a813::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInit4dd14794522519deee6d861544f0a813::$prefixDirsPsr4;
-            $loader->prefixesPsr0 = ComposerStaticInit4dd14794522519deee6d861544f0a813::$prefixesPsr0;
-            $loader->classMap = ComposerStaticInit4dd14794522519deee6d861544f0a813::$classMap;
->>>>>>> origin/dev
 
         }, null, ClassLoader::class);
     }
